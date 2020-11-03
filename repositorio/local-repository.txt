@@ -1,0 +1,17 @@
+LOCAL REPOSITORY
+	Área donde se almacenan los cambios en formato BLOB (Binary File Object) mediante una referencia identificada con el nombre HEAD (cabecera). Cada commit emitido genera un número hexadecimal de 40 dígitos conocido como HASH. 
+
+
+COMANDOS
+
+git commit => genera un mensaje para el almacenamiento con notas detalladas.
+	
+	git commit -m => genera el commit con un mensaje
+	git commit --amend => genera un commit que reemplaza al último
+	git commit --amend -m => genera un mensaje reemplazando al último commit.
+
+
+git status => compara 
+
+
+git diff => compara el working directory con el local repository

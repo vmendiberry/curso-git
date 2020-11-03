@@ -1,0 +1,16 @@
+STAGING AREA (INDEX)
+	Es el área donde se registran los cambios, se hacen las capturas de código (snapshot) y donde indicamos a git a qué archivos vamos a realizarle seguimiento.
+
+
+COMANDOS
+
+git add => indica a GIT cuáles son los archivos a registrar.
+	
+	git add <file> => agrega el archivo especificado
+	git add *.extension => agrega todos los archivos con la extensión especificada
+	git add . => agrega todos los archivos que presenten diferencias con la cabecera (HEAD)
+
+
+git status => compara el working directory con el staging area
+
+
