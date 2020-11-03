@@ -1,0 +1,19 @@
+WORKING DIRECTORY:
+
+Carpeta donde se lleva a cabo el trabajo de nuestro proyecto. Generalmente utilizaremos las herramientas de desarrollo elegidas por nosotros y muy rara vez la consola.
+
+COMANDOS:
+
+CD (check directory)
+	permite navegar entre los directorios de la computadora (carpetas), utilizando 	diferentes variantes.
+		cd .. => vuelve a la carpeta/directorio anterior
+		cd <folder> => abre el directorio especificado
+		cd \ => abre el directorio raiz (C:)
+
+mkdir (make directory)
+	permite crear directorio con los nombres especificados después del comando.
+		mkdir <folder> <folder> ... <folder> => puedo generar tantas carpetas como 		quiera, siempre separadas por un espacio.
+
+--------------------------------------------------------------------------------------------
+
+GIT INIT => crea el repositorio de GIT
