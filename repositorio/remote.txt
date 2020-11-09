@@ -1,0 +1,14 @@
+REMOTE
+	Corresponde a las direcciones de los repositorios remotos, normalmente alojados en servidores de archivos.
+
+
+COMANDOS:
+
+git remote	lista los repositorios remotos (1 o más)
+		si creamos un repositorio: NO HAY REMOTOS POR DEFECTO
+		si clonamos: SE AGREGA EL REPOSITORIO REMOTO ORIGIN
+	
+	git remote add <alias> <url> => agrega un repositorio remoto
+	git remote rename <alias> => permite cambiar el alias del repositorio remoto
+	git remote -v => lista los repositorios de manera verbose (url incluída)
+	git remote remove <alias> => quita el remoto de la lista de repositorios
