@@ -1,0 +1,11 @@
+BRANCH:
+	Una rama es un apuntador dinámico que posee su propia cabecera (HEAD), es decir, que podemos trabajar en un proyecto con varios caminos alternativos por cada rama creada. Éstas apuntan a un commit en común y se pueden integrar o no a otras existentes.
+
+
+COMANDOS:
+	git branch => permite listar o gestionar las ramas
+		
+		git branch <branch> => crea la rama con el nombre indicado
+		git switch <branch> => cambia el HEAD a la rama especificada (específico para ramas)
+		git checkout <branch> => cambia el HEAD a la rama especificada (comando universal)
+		git checkout -b <branch> => crea la rama y mueve el HEAD hacia ella

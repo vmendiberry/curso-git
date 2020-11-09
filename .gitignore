@@ -1,0 +1,16 @@
+## Ignora todos los elementos indicados
+##
+## directorios EJ: mydir/
+## archivos EJ: algo.txt
+## por extensión EJ: *.txt
+
+## Archivos formato temp
+*.temp
+*.tmp
+
+
+
+## Carpeta temp
+temp/
+tmp/
+node*/
