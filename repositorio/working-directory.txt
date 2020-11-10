@@ -12,7 +12,7 @@ CD (check directory)
 
 mkdir (make directory)
 	permite crear directorio con los nombres especificados después del comando.
-		mkdir <folder> <folder> ... <folder> => puedo generar tantas carpetas como 		quiera, siempre separadas por un espacio.
+		mkdir <folder> <folder> ... <folder> => puedo generar tantas carpetas como quiera, siempre separadas por un espacio.
 
 MV (move directory)
 
