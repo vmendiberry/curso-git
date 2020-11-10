@@ -9,3 +9,8 @@ COMANDOS:
 		git switch <branch> => cambia el HEAD a la rama especificada (específico para ramas)
 		git checkout <branch> => cambia el HEAD a la rama especificada (comando universal)
 		git checkout -b <branch> => crea la rama y mueve el HEAD hacia ella
+		
+		git branch -d <branch> => elimina la rama si previamente fue fusionada
+		git branch -D <branch> => elimina la rama, haya sido fusionada o no
+
+		git merge <branch> => integra en la rama actual los cambios
