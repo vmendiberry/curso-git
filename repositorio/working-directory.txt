@@ -14,6 +14,10 @@ mkdir (make directory)
 	permite crear directorio con los nombres especificados después del comando.
 		mkdir <folder> <folder> ... <folder> => puedo generar tantas carpetas como 		quiera, siempre separadas por un espacio.
 
+MV (move directory)
+
 --------------------------------------------------------------------------------------------
 
 GIT INIT => crea el repositorio de GIT
+GIT CLONE <url> => clona un repositorio de git en una carpeta con el mismo nombre 
+GIT CLONE <url> <folder> => clona un repositorio creando una carpeta con el nombre especificado

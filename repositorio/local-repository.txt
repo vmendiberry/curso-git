@@ -11,7 +11,18 @@ git commit => genera un mensaje para el almacenamiento con notas detalladas.
 	git commit --amend -m => genera un mensaje reemplazando al último commit.
 
 
-git status => compara 
-
+git status => compara el working directory con el staging area
 
 git diff => compara el working directory con el local repository
+
+
+
+git push => envía los cambios a un repositorio remoto
+git push --set-upstream <remote> <branch> => agrega la rama al repositorio remoto para seguimiento
+
+git fetch => trae los cambios al index (no modifica el WORKING DIRECTORY)
+git fetch <remote> <branch> => trae los cambios de la rama especificada
+
+
+git pull => (fetch + merge) trae e integra los cambios de un repositorio remoto
+git pull <remote> <branch> => trae los cambios de la rama remote y los integra a la rama actual
